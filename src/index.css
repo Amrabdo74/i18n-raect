@@ -16,4 +16,43 @@ body {
     direction: ltr;
     text-align: left;
   }
+  /* src/components/BackToTopButton.css */
+.vp-back-to-top-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 52px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 1000;
+  }
+  
+  .vp-back-to-top-button:hover {
+    background-color: #555;
+  }
+  
+  .vp-scroll-progress {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .vp-scroll-progress svg {
+    width: 100%;
+    height: 100%;
+    transform: rotate(-90deg);
+  }
+  
+  .back-to-top-icon {
+    font-size: 24px;
+  }
   
