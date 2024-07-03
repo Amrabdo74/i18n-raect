@@ -6,7 +6,7 @@ import './i18n'; // import the i18n configuration
 import BackToTopButton from './Top.jsx';
 import WhatsAppMessage from './Whats.jsx';
 import WaveAnimation from './Wave.jsx';
-
+import 'bootstrap/dist/css/bootstrap.css';
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />

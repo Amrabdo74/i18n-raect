@@ -1,9 +1,0 @@
-.wave-container {
-    width: 100%; /* Ensure the container spans the full width of its parent */
-  }
-  
-  .wave-svg {
-    width: 100%; /* Make the SVG element take up 100% of its container width */
-    height: auto; /* Maintain aspect ratio and adjust height accordingly */
-  }
-  

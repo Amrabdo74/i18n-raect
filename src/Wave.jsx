@@ -1,10 +1,9 @@
-import './WaveAnimation.css';
 const WaveAnimation = () => (
-  <div className='wave-container'>
+  <div className='wave-container w-100'>
     <svg
-      xmlns="http://www.w3.org/2000/svg"
-      xmlnsXlink="http://www.w3.org/1999/xlink"
-      className="wave-svg"
+    //   xmlns="http://www.w3.org/2000/svg"
+    //   xmlnsXlink="http://www.w3.org/1999/xlink"
+      className="wave-svg w-100"
       height="675"
       preserveAspectRatio="xMidYMid slice"
       viewBox="0 0 1319 675"
