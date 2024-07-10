@@ -1,10 +1,11 @@
-import React from 'react';
 import ShareProduct from './ShareProduct';
-const product = [
-    {name: "msmsmms"},
-    {description: "Microsoft Corporation Corporation product "}
-]
+const product = {
+    name: "msmsmms",
+    description: "Microsoft Corporation Corporation product "
+}
 const ProductPage = () => {
+    console.log("product.name",product.name);
+
   return (
     <div>
       <h1>{product.name}</h1>

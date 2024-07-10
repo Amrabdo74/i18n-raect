@@ -13,7 +13,7 @@ import {
 const ShareProduct = ({ product }) => {
   const shareUrl = window.location.href; // or a specific product URL
   const title = product.name;
-
+  console.log("title",title);
   return (
     <div className="social-share-buttons">
       <FacebookShareButton url={shareUrl} quote={title} hashtag="#yourHashtag">
