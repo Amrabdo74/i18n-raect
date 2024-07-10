@@ -15,7 +15,9 @@ const App = () => {
   };
 
   return (
-    <ChatContainer>
+  <>
+  
+  <ChatContainer>
       <MessagesContainer>
         {messages.map((msg, index) => (
           <Message key={index}>
@@ -40,6 +42,8 @@ const App = () => {
         <SendButton onClick={handleSendMessage}>Send</SendButton>
       </InputContainer>
     </ChatContainer>
+    
+  </>
   );
 };
 
