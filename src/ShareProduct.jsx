@@ -19,7 +19,6 @@ const ShareProduct = ({ product }) => {
 
   return (
     <div>
-      <Helmet>
         <title>{title}</title>
         <meta name="description" content={description} />
         <meta property="og:title" content={title} />
@@ -27,7 +26,6 @@ const ShareProduct = ({ product }) => {
         <meta property="og:image" content={image} />
         <meta property="og:url" content={shareUrl} />
         <meta property="og:type" content="product" />
-      </Helmet>
 
       <div className="social-share-buttons">
         <FacebookShareButton url={shareUrl} quote={title} hashtag="#AwesomeProduct">
